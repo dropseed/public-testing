@@ -1,0 +1,9 @@
+version: 3
+groups:
+  code-review:
+    reviewers:
+      users: [davegaeddert]
+    reviews:
+      request: 0
+      require: 1
+      author_value: 1
