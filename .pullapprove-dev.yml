@@ -5,5 +5,5 @@ groups:
       users: [davegaeddert]
     reviews:
       request: 0
-      require: 1
+      required: 1
       author_value: 1
