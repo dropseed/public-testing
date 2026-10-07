@@ -1,0 +1,9 @@
+# Dev-instance config (PULLAPPROVE_CONFIG_PREFIX=DEVREVIEW) for the merge queue
+# live test. One global catch-all scope: any one approval from a non-author passes.
+
+[[scopes]]
+name = "anybody"
+paths = ["**/*"]
+reviewers = ["*"]
+require = 1
+ownership = "global"
