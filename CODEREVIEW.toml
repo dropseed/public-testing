@@ -1,0 +1,10 @@
+# Prod-instance config for the merge queue live test. One global catch-all
+# scope that passes with no approvals, so a PR can enter the merge queue
+# without a second reviewer.
+
+[[scopes]]
+name = "anybody"
+paths = ["**/*"]
+reviewers = ["*"]
+require = 0
+ownership = "global"
